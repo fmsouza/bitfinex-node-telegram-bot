@@ -1,0 +1,19 @@
+{
+  "name": "bitfinex-node-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "nodemon bot.js || node bot.js"
+  },
+  "author": "babrums",
+  "license": "MIT",
+  "dependencies": {
+    "bitfinex": "^1.0.3",
+    "dotenv": "^4.0.0",
+    "node-telegram-bot-api": "^0.27.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
